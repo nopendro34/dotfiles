@@ -1,0 +1,20 @@
+call plug#begin()
+
+" List your plugins here
+Plug 'scrooloose/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'wolandark/vim-live-server'
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
+
+set encoding=UTF-8
+set cursorline
+set number
+set nowrap
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
