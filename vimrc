@@ -10,9 +10,7 @@ Plug 'vim-airline/vim-airline'
 call plug#end()
 
 set encoding=UTF-8
-set cursorline
 set number
-set nowrap
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
