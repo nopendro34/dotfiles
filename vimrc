@@ -6,6 +6,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'wolandark/vim-live-server'
 Plug 'vim-airline/vim-airline'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
