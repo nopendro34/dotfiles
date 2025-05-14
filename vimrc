@@ -19,3 +19,5 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 autocmd VimEnter * NERDTree
+
+let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-tsserver', 'coc-emmet', 'coc-phpls', 'coc-vimlsp', 'coc-json']
