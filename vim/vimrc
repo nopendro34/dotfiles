@@ -21,3 +21,5 @@ nnoremap <C-f> :NERDTreeFind<CR>
 autocmd VimEnter * NERDTree
 
 let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-tsserver', 'coc-emmet', 'coc-phpls', 'coc-vimlsp', 'coc-json']
+
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
